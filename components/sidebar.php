@@ -23,7 +23,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         <ul class="space-y-2">
             <!-- Dashboard -->
             <li>
-                <a href="dashboard.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'dashboard.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-dashboard.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'admin-dashboard.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-tachometer-alt w-5 text-center"></i>
                     <span>Dashboard</span>
                 </a>
@@ -31,7 +31,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Kategori Kelas -->
             <li>
-                <a href="kategori-kelas.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kategori-kelas.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-kategori_kelas.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'admin-kategori_kelas.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-layer-group w-5 text-center"></i>
                     <span>Kategori Kelas</span>
                 </a>
@@ -39,7 +39,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Mata Pelajaran -->
             <li>
-                <a href="mata-pelajaran.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'mata-pelajaran.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-mata_pelajaran.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'admin-mata_pelajaran.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-book w-5 text-center"></i>
                     <span>Mata Pelajaran</span>
                 </a>
@@ -47,7 +47,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Kelola Materi -->
             <li>
-                <a href="kelola-materi.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-materi.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-kelola_materi.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-materi.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-file-alt w-5 text-center"></i>
                     <span>Kelola Materi</span>
                 </a>
@@ -55,7 +55,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Kelola Soal -->
             <li>
-                <a href="kelola-soal.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-soal.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-kelola_soal.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-soal.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-tasks w-5 text-center"></i>
                     <span>Kelola Soal</span>
                 </a>
