@@ -47,7 +47,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Kelola Materi -->
             <li>
-                <a href="admin-kelola_materi.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-materi.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-kelola_materi.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'admin-kelola_materi.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-file-alt w-5 text-center"></i>
                     <span>Kelola Materi</span>
                 </a>
@@ -55,7 +55,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             
             <!-- Kelola Soal -->
             <li>
-                <a href="admin-kelola_soal.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'kelola-soal.php' ? 'bg-primary text-white' : ''; ?>">
+                <a href="admin-kelola_soal.php" class="flex items-center space-x-3 px-3 py-2 text-gray-700 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 <?php echo $currentPage == 'admin-kelola_soal.php' ? 'bg-primary text-white' : ''; ?>">
                     <i class="fas fa-tasks w-5 text-center"></i>
                     <span>Kelola Soal</span>
                 </a>
